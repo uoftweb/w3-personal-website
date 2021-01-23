@@ -1,0 +1,172 @@
+/* ------- basic ------- */
+
+body {
+  background-color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+  color: #323232;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Courier New', monospace;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+
+/* ------- first ------- */
+
+#section1 {
+  height: 100vh;
+  background: url('background.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: auto;
+}
+
+.intro-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh;
+
+  text-align:center;
+  padding: 50px;
+}
+
+.name {
+  font-family: 'Courier New', monospace;
+  font-size:115px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.tagline {
+  font-family: 'Helvecita', sans-serif;
+  font-size:25px;
+  margin-top: 20px;
+}
+
+
+.socials {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  padding-right:10px;
+}
+
+.icon i{
+  font-size:32px;
+}
+
+/* ------- about ------- */
+
+.container2 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20vh 0;
+  width:800px;
+}
+
+.block_about {
+  background-color: white;
+  display: block;
+  padding: 50px;
+
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* ------- skills ------- */
+
+.container3 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20vh 0;
+  width:800px;
+}
+
+.block_skills {
+  background-color: white;
+  display: block;
+  padding: 50px;
+  font-size:24px;
+  font-family: 'Courier New', monospace;
+}
+
+
+/* ------- projects ------- */
+
+.container4 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20vh 0;
+  width:800px;
+}
+
+.block_proj h1 {
+  color: #323232;
+}
+
+.block_proj {
+  background:#ffffff;
+  display: block;
+  padding: 50px;
+
+  color: #323232;
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+.block_proj:not(.last) {
+  margin-bottom: 50px;
+}
+
+
+/* ------- resume ------- */
+
+.container5 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+  padding: 150px;
+}
+
+.container5 .text {
+  display: block;
+  padding: 50px;
+  background-color: white;
+  font-size: 24px;
+  font-family: 'Courier New', monospace;
+}
+
+
+/* ------- creds ------- */
+
+.container0 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+.container0 .text {
+  display: block;
+  font-size: 15px;
+  font-family: 'Courier New', monospace;
+  color: #4b4b4b;
+}

@@ -1,6 +1,7 @@
 # Instructions - pre-demo
 
 1. In the top right corner, click the `Fork` button. Please fork this repo to your own GitHub account.
+2. Clone this repo locally to your own machine. `git clone https://github.com/uoftweb/w3-personal-website.git`
 
 # Live code sharing [optional]
 

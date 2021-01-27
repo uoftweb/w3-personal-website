@@ -1,0 +1,278 @@
+/* ------- basic ------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #323232;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+a {
+  color: #42539f
+}
+
+
+/* ------- nav ------- */
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color:rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+
+#nav-bar a {
+  color: white;
+}
+
+.nav-links-container {
+  float: right;
+  margin-top: 15px;
+}
+
+.nav-link {
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+.socials {
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.icon {
+  padding-right:10px;
+}
+
+.icon i{
+  color:#ffffff;
+  font-size:32px;
+}
+
+
+/* ------- first ------- */
+
+#section1 {
+  height: 100vh;
+  background: url('background.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: auto;
+}
+
+.intro-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh;
+
+
+  text-align:center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  border: white 5px solid;
+}
+
+.name {
+  font-family: 'Roboto Mono', monospace;
+  font-size:115px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.tagline {
+  font-family: 'Roboto', sans-serif;
+  font-size:25px;
+  color: #a2a2a2;
+  margin-top: 20px;
+}
+
+/*------- (mini) bar -------*/
+
+.bar {
+  width:100%;
+  background-color: #4b4b4b;
+  color:#ffffff;
+  height:50px;
+  margin-top:-50px;
+}
+
+
+.section_links {
+  padding-right:40px;
+  float:right;
+  margin-top:-20px;
+}
+
+.link {
+  display: inline-block;
+  padding-left:10px;
+}
+
+.link a {
+  background-color:#ffffff;
+  color:#4b4b4b;
+  padding:3px 5px 2px 5px;
+  text-decoration: none;
+  font-family:'Roboto Mono', monospace;
+}
+
+.fixed {
+  position: fixed;
+  top:50px;
+  left:0;
+  opacity:0.75;
+  
+  transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -webkit-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+}
+
+
+
+/* ------- about ------- */
+
+#section2 {
+  background-color:#42539f;
+}
+
+.container2 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20vh 0;
+  width:800px;
+}
+
+.block_about {
+  background-color: white;
+  display: block;
+  padding: 50px;
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* ------- skills ------- */
+
+#section3 {
+  background-color: #eb7974;
+}
+
+.container3 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20vh 0;
+  width:800px;
+}
+
+.block_skills {
+  background-color: white;
+  display: block;
+  padding: 50px;
+  font-size:24px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* ------- projects ------- */
+
+#section4 {
+  background-color:#fec3a1;
+}
+
+.container4 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20vh 0;
+  width:800px;
+}
+
+.block_proj h1 {
+  color: #323232;
+}
+
+.block_proj {
+  background:#ffffff;
+  display: block;
+  padding: 50px;
+
+  color: #323232;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+.block_proj:not(.last) {
+  margin-bottom: 50px;
+}
+
+
+/* ------- resume ------- */
+
+#section5 {
+  background-color: #feafbe;
+
+}
+
+.container5 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+  padding: 150px;
+}
+
+.container5 .text {
+  display: block;
+  padding: 50px;
+  background-color: white;
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* ------- creds ------- */
+
+#section0 {
+  background-color:white;
+}
+
+.container0 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+.container0 .text {
+  display: block;
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+  color: #4b4b4b;
+}
